@@ -38,7 +38,7 @@ git clone https://github.com/yourusername/ViT-Implementation.git
 cd ViT-Implementation
 ```
 
-* Ensure you have Python 3.7 or higher installed.
+- Ensure you have Python 3.7 or higher installed.
 
 - Navigate to your project directory.
 
@@ -105,7 +105,7 @@ The Vision Transformer (ViT) introduces a novel approach to image recognition by
 
 **Architecture Diagram:**
 
-![Vision Transformer Architecture](https://viso.ai/wp-content/uploads/2021/03/vision-transformer.png)
+![Vision Transformer Architecture](images/08-vit-paper-figure-1-architecture-overview.png)
 
 *Figure: Vision Transformer (ViT) Architecture*
 
