@@ -34,8 +34,8 @@ This repository offers a comprehensive implementation of the **Vision Transforme
 - Clone the repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/yourusername/ViT-Implementation.git
-cd ViT-Implementation
+git clone https://github.com/mohamed22311/ViT.git
+cd ViT
 ```
 
 - Ensure you have Python 3.7 or higher installed.
