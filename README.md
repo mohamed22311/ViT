@@ -105,7 +105,7 @@ The Vision Transformer (ViT) introduces a novel approach to image recognition by
 
 **Architecture Diagram:**
 
-![Vision Transformer Architecture](https://viso.ai/wp-content/uploads/2021/03/vision-transformer.png)
+![Vision Transformer Architecture](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS44MHuNZGGJ7qsCL5OBKd-DvT1XspFjRlbRA&s)
 
 *Figure: Vision Transformer (ViT) Architecture*
 
