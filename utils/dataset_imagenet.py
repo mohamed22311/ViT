@@ -16,7 +16,7 @@ class ImageNetDataset(Dataset):
 
         if not os.path.exists(data_dir):
             print(f"Dataset not found at {data_dir}. Downloading...")
-            download_data(source="https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz",
+            download_data(source="https://image-net.org/data/winter21_whole.tar.gz",
                         destination="ImageNet")
             
         self.data_dir = os.path.join(data_dir, "train" if train else "val")
