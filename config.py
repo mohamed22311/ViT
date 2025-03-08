@@ -16,6 +16,7 @@ class Config:
     BETAS = (0.9, 0.999) # betas for Adam optimizer
     NUM_WORKERS = os.cpu_count() 
     PIN_MEMORY = True # pin memory for faster data loading
+    WEIGHT_DECAY = 0.1 # L2 Regularization lambda 
     DEVICE = "cuda" if torch.cuda.is_available() else "cpu" # device to compute on
     SEED = 42 # seed for reproducibility
     SAVE_DIR = "models/" # directory to save models
