@@ -1,6 +1,6 @@
 from torch import nn
-from TransformerEncoderBlock import TransformerEncoderBlock
-from PatchEmbedding import PatchEmbedding
+from .TransformerEncoderBlock import TransformerEncoderBlock
+from .PatchEmbedding import PatchEmbedding
 
 class VisionTransformer(nn.Module):
     def __init__(self,
