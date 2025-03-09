@@ -67,6 +67,7 @@ def finetune_vit(config: Config) -> None:
         dropout=config.DROPOUT,
         num_classes=1000,  
     )
+    
 
     model = freeze_backbone(model)
     model.classifier = nn.Linear(config.D, len(class_names))  
